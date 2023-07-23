@@ -8,6 +8,6 @@ public class Execucao {
 
 		Documento documento = new Documento();
 
-		Documento novoDocumentoClonado = 		Documento.clone(documento);
+		Documento novoDocumentoClonado = Documento.clone(documento);
 	}
 }
