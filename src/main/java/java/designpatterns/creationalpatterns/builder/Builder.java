@@ -62,6 +62,10 @@ public class Builder {
 	* representações de um produto, como casas de madeira, pedra e etc. Assim, quando os passos forem
 	* similares, mas apenas alguns detalhes forem diferentes, podemos utilizá-lo. */
 
+	/* 3. Podemos usar quando temos um método que recebe, por exemplo, mais de 4 argumentos em
+	* um método, assim, se tivermos 5 argumentos em um método, podemos criar um builder para encapsular
+	* os argumentos. */
+
 	/* Vantagens: */
 
 	/* 1. Conseguimos construir objetos passo a passo, de forma até recursiva, se necessário. */
