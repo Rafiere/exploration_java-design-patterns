@@ -2,6 +2,8 @@ package java.designpatterns.creationalpatterns.builder.ddimplementacaocomdirecto
 
 public class ImplementacaoComDirector {
 
+	/* Essa é a implementação que está no exemplo do Refactoring Guru. */
+
 	/* Esse é o tipo de implementação mais complexa e não é muito
 	* utilizado. */
 
