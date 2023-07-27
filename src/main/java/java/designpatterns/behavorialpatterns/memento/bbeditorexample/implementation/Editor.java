@@ -16,12 +16,16 @@ public class Editor {
 		textArea = new TextArea();
 	}
 
+	/* A cada vez que o método "write()" for utilizado, uma
+	* snapshot será armazenada. */
 	public void write(String text){
 		textArea.setText(text);
 
 		stateHistory.add(textArea.takeSnapshot());
 	}
 
+	/* Quando esse método for utilizado, voltaremos para a snapshot
+	* anterior. */
 	public void undo(){
 		textArea.restore(stateHistory.pop());
 	}
