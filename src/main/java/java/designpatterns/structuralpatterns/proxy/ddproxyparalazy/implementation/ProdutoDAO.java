@@ -11,4 +11,12 @@ public class ProdutoDAO implements IProdutoDAO {
 			e.printStackTrace();
 		}
 	}
+
+	@Override
+	public Object find(long id) {
+
+		/* Temos que implementar a busca em um objeto... */
+
+		return new Object();
+	}
 }
