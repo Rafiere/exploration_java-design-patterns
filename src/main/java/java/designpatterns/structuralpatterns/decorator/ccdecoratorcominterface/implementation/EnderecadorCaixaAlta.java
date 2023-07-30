@@ -1,4 +1,4 @@
-package java.designpatterns.structuralpatterns.decorator.ccdecoratorcominterface;
+package java.designpatterns.structuralpatterns.decorator.ccdecoratorcominterface.implementation;
 
 /* Esse decorator continua acrescentando uma funcionalidade a mais
 * em volta, que é adicionar a "caixa alta" no retorno do endereçador. */

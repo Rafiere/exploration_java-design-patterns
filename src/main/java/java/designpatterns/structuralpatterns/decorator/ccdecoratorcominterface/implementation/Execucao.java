@@ -1,4 +1,4 @@
-package java.designpatterns.structuralpatterns.decorator.ccdecoratorcominterface;
+package java.designpatterns.structuralpatterns.decorator.ccdecoratorcominterface.implementation;
 
 /* Se temos uma classe que espera um endereçador, nesse exemplo, não importa qual é a
 * implementação de endereçador que vamos usar, por isso, estamos utilizando uma interface. */

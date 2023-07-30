@@ -1,4 +1,4 @@
-package java.designpatterns.structuralpatterns.decorator.ccdecoratorcominterface;
+package java.designpatterns.structuralpatterns.decorator.ccdecoratorcominterface.implementation;
 
 
 public class EnderecadorSimples implements Enderecador {
